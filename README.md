@@ -30,7 +30,10 @@
  :-: | - | :-: | :-:
 ✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
 ✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉](Solutions/26.删除排序数组中的重复项.md) 
+✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]() 
+✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | [👉]() 
+
+
 
 ### 二分法
 
@@ -53,8 +56,10 @@
 
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
+✔ | [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [👍](Solutions/70.爬楼梯.md) | [👉]()
 ✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍](Solutions/5.最长回文子串.md) | [👉](Solutions/5.最长回文子串.md)
-✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍](Solutions/53.最大子序和.md) | [👉]([Solutions/5.最长回文子串.md](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/))
+✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍](Solutions/53.最大子序和.md) | [👉](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
+
 
 # 回溯算法
 ## 回溯算法模板
@@ -77,3 +82,8 @@ void backtracking(参数) {
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [46.全排列](https://leetcode-cn.com/problems/permutations/) | [👍](Solutions/46.全排列.md) | [👉](https://leetcode-cn.com/problems/permutations/solution/46-quan-pai-lie-hui-su-suan-fa-jing-dian-ti-mu-xia/)
+
+##  子集类题目
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [78.子集](https://leetcode-cn.com/problems/subsets/solution/) | [👍](Solutions/78.子集.md) | [👉]()
