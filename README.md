@@ -5,6 +5,12 @@
  :-: | - | :-: | :-:
 ✔ |[54.螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/submissions/) | [👍](Solutions/54.螺旋矩阵.md) | [👉]
 ✔ |[59.螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [👍](Solutions/7.59.螺旋矩阵II.md) | [👉]
+✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
+
+## 树
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [👍](Solutions/104.二叉树的最大深度.md) | [👉]
 ## 栈
 <!-- 
 ❌
@@ -60,7 +66,10 @@
 ✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍](Solutions/5.最长回文子串.md) | [👉](Solutions/5.最长回文子串.md)
 ✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍](Solutions/53.最大子序和.md) | [👉](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
 
-
+### 股票类问题
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [👍](Solutions/121.买卖股票的最佳时机.md) | [👉]()
 # 回溯算法
 ## 回溯算法模板
 
