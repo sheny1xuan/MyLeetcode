@@ -1,16 +1,28 @@
 # 题目分类
 
-## 模拟
+## 模拟和位运算
+### 模拟
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[54.螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/submissions/) | [👍](Solutions/54.螺旋矩阵.md) | [👉]
 ✔ |[59.螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [👍](Solutions/7.59.螺旋矩阵II.md) | [👉]
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
 
+### 位运算
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
+✔ |[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [👍](Solutions/136.只出现一次的数字.md) | [👉]
+
 ## 树
+### 求树的属性
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [👍](Solutions/104.二叉树的最大深度.md) | [👉]
+### 求路径总和
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [👍](Solutions/124.二叉树中的最大路径和.md) | [👉]
 ## 栈
 <!-- 
 ❌
@@ -70,6 +82,7 @@
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [121.买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [👍](Solutions/121.买卖股票的最佳时机.md) | [👉]()
+✔ | [122.买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [👍](Solutions/122.买卖股票的最佳时机II.md) | [👉]()
 # 回溯算法
 ## 回溯算法模板
 
