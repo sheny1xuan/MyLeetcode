@@ -63,12 +63,17 @@
 
 ## 链表
 
-做题情况 |题目 | 我的题解 | 参考资料
+链表合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
 ✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | [👉]
 ✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
 ✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
+
+快慢指针 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
+
 
 ## 动态规划
 
