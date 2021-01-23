@@ -32,6 +32,7 @@
  :-: | - | :-: | :-:
 ✔ |[7.整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [👍](Solutions/7.整数反转.md) | [👉](Solutions/7.整数反转.md)
 ✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
+✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
 
 ## 字符串
 
@@ -63,16 +64,29 @@
 
 ## 链表
 
+链表基本操作 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | [👉]
+✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | [👉]
+
 链表合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
-✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | [👉]
+
 ✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
 ✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
 
 快慢指针 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
+
+链表排序 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
+
+双向链表 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [146.LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [👍](Solutions/146.LRU缓存机制.md) | 无
 
 
 ## 动态规划
