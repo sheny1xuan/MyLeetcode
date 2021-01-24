@@ -34,14 +34,19 @@
 ✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
 ✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
 
-## 字符串
+## 字符串与数组
 
-做题情况 |题目 | 我的题解 | 参考资料
+字符串 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[8.字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [👍](Solutions/8.字符串转换整数.md) | [👉](Solutions/8.字符串转换整数.md)
 ✔ |[14.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [👍](Solutions/14.最长公共前缀.md) | [👉](Solutions/14.最长公共前缀.md) 
 ❌ |[415.字符串相加](https://leetcode-cn.com/problems/add-strings/) | [👍](415.字符串相加.md) | [👉](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)
 ❌ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | [👉]([Solutions/14.最长公共前缀.md](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)) 
+
+数组 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
+
 
 ## 双指针
 
@@ -68,21 +73,25 @@
  :-: | - | :-: | :-:
 ✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | [👉]
 ✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | [👉]
+✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | [👉]
+✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | [👉]
 
 链表合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
-
 ✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
 ✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
+
+链表排序 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
+✔ | [148.排序链表](https://leetcode-cn.com/problems/sort-list/) | [👍](Solutions/148.排序链表.md) | 👉并归排序
 
 快慢指针 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
 
-链表排序 |题目 | 我的题解 | 参考资料或相关题目
- :-: | - | :-: | :-:
-✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
+
 
 双向链表 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
