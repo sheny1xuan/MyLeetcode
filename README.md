@@ -12,7 +12,8 @@
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
-✔ |[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [👍](Solutions/136.只出现一次的数字.md) | [👉]
+✔ |[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [👍](Solutions/136.只出现一次的数字.md) | 👉
+✔ |[231.2的幂](https://leetcode-cn.com/problems/power-of-two/) | [👍](Solutions/231.2的幂.md) | 👉
 
 ## 树
 ### 求树的属性
@@ -46,7 +47,15 @@
 数组 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
+✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
+## 哈希表与排列
+哈希表 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉
 
+<!-- 排序 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉 -->
 
 ## 双指针
 
@@ -71,10 +80,10 @@
 
 链表基本操作 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | [👉]
-✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | [👉]
-✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | [👉]
-✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | [👉]
+✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | 👉
+✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
+✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | 👉
+✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | 👉
 
 链表合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
