@@ -23,7 +23,13 @@
 ### 求路径总和
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [👍](Solutions/124.二叉树中的最大路径和.md) | [👉]
+✔ |[124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [👍](Solutions/124.二叉树中的最大路径和.md) | 👉
+
+### 二叉搜索树
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[230.二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [👍](Solutions/230.二叉搜索树中第K小的元素.md) | 👉 
+
 ## 栈
 <!-- 
 ❌
@@ -42,16 +48,19 @@
 ✔ |[8.字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [👍](Solutions/8.字符串转换整数.md) | [👉](Solutions/8.字符串转换整数.md)
 ✔ |[14.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [👍](Solutions/14.最长公共前缀.md) | [👉](Solutions/14.最长公共前缀.md) 
 ❌ |[415.字符串相加](https://leetcode-cn.com/problems/add-strings/) | [👍](415.字符串相加.md) | [👉](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)
-❌ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | [👉]([Solutions/14.最长公共前缀.md](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)) 
+❌ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | 👉
+✔  |[557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [👍](Solutions/557.反转字符串中的单词III.md) | 👉[344](344.反转字符串.md)
 
 数组 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
+✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238. 除自身以外数组的乘积.md) | 👉
 ## 哈希表与排列
 哈希表 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉
+✔ |[1128.等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/submissions/) | [👍](Solutions/1128.等价多米诺骨牌对的数量.md) | 👉
 
 <!-- 排序 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
