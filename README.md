@@ -47,8 +47,8 @@
  :-: | - | :-: | :-:
 ✔ |[8.字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [👍](Solutions/8.字符串转换整数.md) | [👉](Solutions/8.字符串转换整数.md)
 ✔ |[14.最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [👍](Solutions/14.最长公共前缀.md) | [👉](Solutions/14.最长公共前缀.md) 
-❌ |[415.字符串相加](https://leetcode-cn.com/problems/add-strings/) | [👍](415.字符串相加.md) | [👉](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)
-❌ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | 👉
+✔ |[415.字符串相加](https://leetcode-cn.com/problems/add-strings/) | [👍](415.字符串相加.md) | [👉](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)
+✔ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | 👉
 ✔  |[557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [👍](Solutions/557.反转字符串中的单词III.md) | 👉[344](344.反转字符串.md)
 
 数组 |题目 | 我的题解 | 参考资料
