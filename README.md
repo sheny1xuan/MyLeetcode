@@ -15,6 +15,18 @@
 ✔ |[136.只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [👍](Solutions/136.只出现一次的数字.md) | 👉
 ✔ |[231.2的幂](https://leetcode-cn.com/problems/power-of-two/) | [👍](Solutions/231.2的幂.md) | 👉
 
+## 数组
+数组 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
+✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
+✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
+✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
+数组的遍历 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[485.最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [👍](Solutions/485.最大连续1的个数.md) | 👉
+✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
+✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
 ## 树
 ### 求树的属性
 做题情况 |题目 | 我的题解 | 参考资料
@@ -41,7 +53,7 @@
 ✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
 ✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
 
-## 字符串与数组
+## 字符串
 
 字符串 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -51,11 +63,8 @@
 ✔ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | 👉
 ✔  |[557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [👍](Solutions/557.反转字符串中的单词III.md) | 👉[344](344.反转字符串.md)
 
-数组 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
-✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
-✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238. 除自身以外数组的乘积.md) | 👉
+
+
 ## 哈希表与排列
 哈希表 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
