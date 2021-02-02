@@ -22,11 +22,55 @@
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
 ✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
 ✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
+
 数组的遍历 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[485.最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [👍](Solutions/485.最大连续1的个数.md) | 👉
 ✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
 ✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
+
+统计数组的元素 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[628.三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [👍](Solutions/628.三个数的最大乘积.md) | 👉
+✔ |[645.错误的集合](https://leetcode-cn.com/problems/set-mismatch/) | [👍](Solutions/645.错误的集合.md) | 👉
+✔ |[697.数组的度](https://leetcode-cn.com/problems/degree-of-an-array/) | [👍](Solutions/697.数组的度.md) | 👉
+❌ |448、442、41、274 | 👍 | 👉
+
+## 哈希表与排列
+哈希表 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉
+✔ |[1128.等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/submissions/) | [👍](Solutions/1128.等价多米诺骨牌对的数量.md) | 👉
+
+<!-- 排序 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉 -->
+
+## 双指针
+
+双指针 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
+✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
+✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]() 
+✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | [👉]() 
+❌ |3,209,76,438,567 | 👍 | 👉
+
+
+### 二分法
+
+二分法 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [11.三数之和](https://leetcode-cn.com/problems/3sum/) | [👍](Solutions/11.三数之和.md) | [👉](Solutions/11.三数之和.md)
+✔ |[16.最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [👍](Solutions/16.最接近的三数之和.md) | [👉](Solutions/16.最接近的三数之和.md) 
+✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [👍](Solutions/33.搜索旋转排序数组.md) | [👉](Solutions/33.搜索旋转排序数组.md) 
+
+### 滑动窗口
+滑动窗口 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉
+❌ |1004,1208,1493 | 👍 | 👉
+
 ## 树
 ### 求树的属性
 做题情况 |题目 | 我的题解 | 参考资料
@@ -65,34 +109,6 @@
 
 
 
-## 哈希表与排列
-哈希表 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉
-✔ |[1128.等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/submissions/) | [👍](Solutions/1128.等价多米诺骨牌对的数量.md) | 👉
-
-<!-- 排序 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉 -->
-
-## 双指针
-
-双指针 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
-✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]() 
-✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | [👉]() 
-
-
-
-### 二分法
-
-二分法 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ | [11.三数之和](https://leetcode-cn.com/problems/3sum/) | [👍](Solutions/11.三数之和.md) | [👉](Solutions/11.三数之和.md)
-✔ |[16.最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [👍](Solutions/16.最接近的三数之和.md) | [👉](Solutions/16.最接近的三数之和.md) 
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [👍](Solutions/33.搜索旋转排序数组.md) | [👉](Solutions/33.搜索旋转排序数组.md) 
 
 ## 链表
 
