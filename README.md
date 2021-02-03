@@ -29,12 +29,16 @@
 ✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
 ✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
 
-统计数组的元素 |题目 | 我的题解 | 参考资料
+统计数组的元素 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[628.三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [👍](Solutions/628.三个数的最大乘积.md) | 👉
 ✔ |[645.错误的集合](https://leetcode-cn.com/problems/set-mismatch/) | [👍](Solutions/645.错误的集合.md) | 👉
 ✔ |[697.数组的度](https://leetcode-cn.com/problems/degree-of-an-array/) | [👍](Solutions/697.数组的度.md) | 👉
-❌ |448、442、41、274 | 👍 | 👉
+✔ |[448.找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [👍哈希表/负数标记原地哈希(最优)](Solutions/448.找到所有数组中消失的数字.md) | 👉[442](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/),[41](https://leetcode-cn.com/problems/first-missing-positive/)
+✔ |[442.数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | [👍哈希表/负数标记原地哈希](Solutions/442.数组中重复的数据.md) | ⬆(注意取绝对值)
+✔ |[41.缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | [👍哈希表/负数标记原地哈希](Solutions/274.H指数.md) | ⬆(注意取绝对值)
+✔ |[274.H指数](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [👍预排序/桶排序](Solutions/274.H指数.md) | 👉有点脑筋急转弯
+❌ |442、41、274 | 👍 | 👉
 
 ## 哈希表与排列
 哈希表 |题目 | 我的题解 | 参考资料
