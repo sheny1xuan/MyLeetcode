@@ -44,11 +44,15 @@
  :-: | - | :-: | :-:
 ✔ |[453.最小操作次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/) | [👍排序模拟](Solutions/453.最小操作次数使数组元素相等.md) | 👉挺有意思
 ✔ |[665.非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [👍贪心](Solutions/453.最小操作次数使数组元素相等.md) | 👉像是谜题
-✔ |[283.移动零](https://leetcode-cn.com/problems/move-zeroes/) | [👍贪心](Solutions/283.移动零.md) | 👉好题，经典双指针
+✔ |[283.移动零](https://leetcode-cn.com/problems/move-zeroes/) | [👍双指针](Solutions/283.移动零.md) | 👉好题，经典双指针
 
 二维数组及滚动数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
-❌ |	118、119、661、598、419 | 👍 | 👉
+✔ |[118.杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [👍二维数组模拟](Solutions/118.杨辉三角.md) | 👉
+✔ |[119.杨辉三角II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [👍滚动数组](Solutions/119.杨辉三角II.md) | 👉
+✔ |[661.图片平滑器](https://leetcode-cn.com/problems/image-smoother/) | [👍二维数组模拟](Solutions/661.图片平滑器.md) | 👉
+✔ |[598.范围求和II](https://leetcode-cn.com/problems/range-addition-ii/) | [👍数组模拟](Solutions/598.范围求和II.md) | 👉脑筋急转弯
+❌ |419 | 👍 | 👉
 
 特定顺序遍历二维数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -100,8 +104,9 @@
 滑动窗口 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | 👉
-✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉
-❌ |1004,1208,1493 | 👍 | 👉
+✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
+✔ | [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [👍](Solutions/1208.尽可能使字符串相等.md) | ⬆
+❌ |1004,1493 | 👍 | 👉
 
 ## 树
 ### 求树的属性
