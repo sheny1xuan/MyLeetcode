@@ -20,8 +20,7 @@
  :-: | - | :-: | :-:
 ✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
-✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
-✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉
+✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
 
 数组的遍历 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -103,7 +102,8 @@
 ### 滑动窗口
 滑动窗口 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | 👉
+✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | [1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/),
+✔ | [1423.可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [👍子序列和/滑动窗口(最优)](Solutions/1423.可获得的最大点数.md) | ⬆预先求和
 ✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 ✔ | [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [👍](Solutions/1208.尽可能使字符串相等.md) | ⬆
 ❌ |1004,1493 | 👍 | 👉
