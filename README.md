@@ -4,8 +4,6 @@
 ### 模拟
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[54.螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/submissions/) | [👍](Solutions/54.螺旋矩阵.md) | [👉]
-✔ |[59.螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [👍](Solutions/7.59.螺旋矩阵II.md) | [👉]
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
 
 ### 位运算
@@ -51,11 +49,14 @@
 ✔ |[119.杨辉三角II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [👍滚动数组](Solutions/119.杨辉三角II.md) | 👉
 ✔ |[661.图片平滑器](https://leetcode-cn.com/problems/image-smoother/) | [👍二维数组模拟](Solutions/661.图片平滑器.md) | 👉
 ✔ |[598.范围求和II](https://leetcode-cn.com/problems/range-addition-ii/) | [👍数组模拟](Solutions/598.范围求和II.md) | 👉脑筋急转弯
-❌ |419 | 👍 | 👉
+✔ |[419.甲板上的战舰](https://leetcode-cn.com/problems/battleships-in-a-board/) | [👉脑筋急转弯](Solutions/419.甲板上的战舰.md) | 👉脑筋急转弯
+
 
 特定顺序遍历二维数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
-❌ |	54、59、498 | 👍 | 👉
+✔ |[54.螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/submissions/) | [👍两种模拟方式](Solutions/54.螺旋矩阵.md) | 👉[59](https://leetcode-cn.com/problems/spiral-matrix-ii/),[498](https://leetcode-cn.com/problems/diagonal-traverse/)
+✔ |[59.螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [👍](Solutions/59.螺旋矩阵II.md) |  ⬆模拟
+✔ |[498.对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | [👍](Solutions/498.对角线遍历.md) |  ⬆模拟
 
 二维数组变换 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -102,7 +103,7 @@
 ### 滑动窗口
 滑动窗口 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | [1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/),
+✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
 ✔ | [1423.可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [👍子序列和/滑动窗口(最优)](Solutions/1423.可获得的最大点数.md) | ⬆预先求和
 ✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 ✔ | [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [👍](Solutions/1208.尽可能使字符串相等.md) | ⬆
