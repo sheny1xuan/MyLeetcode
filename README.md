@@ -1,12 +1,14 @@
 # 题目分类
 
 ## 模拟和位运算
-### 模拟
+> **模拟**
+
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
 
-### 位运算
+> **位运算**
+
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
@@ -14,17 +16,23 @@
 ✔ |[231.2的幂](https://leetcode-cn.com/problems/power-of-two/) | [👍](Solutions/231.2的幂.md) | 👉
 
 ## 数组
+
 数组 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
 ✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
 
+> **数组的遍历**
+
 数组的遍历 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[485.最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [👍](Solutions/485.最大连续1的个数.md) | 👉
 ✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
 ✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
+
+> **统计数组的元素**
+
 
 统计数组的元素 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -36,12 +44,15 @@
 ✔ |[41.缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/) | [👍哈希表/负数标记原地哈希](Solutions/274.H指数.md) | ⬆(注意取绝对值)
 ✔ |[274.H指数](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [👍预排序/桶排序](Solutions/274.H指数.md) | 👉有点脑筋急转弯
 
+> **数组的改变、移动**
 
 数组的改变、移动 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[453.最小操作次数使数组元素相等](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements/) | [👍排序模拟](Solutions/453.最小操作次数使数组元素相等.md) | 👉挺有意思
 ✔ |[665.非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/) | [👍贪心](Solutions/453.最小操作次数使数组元素相等.md) | 👉像是谜题
 ✔ |[283.移动零](https://leetcode-cn.com/problems/move-zeroes/) | [👍双指针](Solutions/283.移动零.md) | 👉好题，经典双指针
+
+> **二维数组及滚动数组**
 
 二维数组及滚动数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -51,6 +62,7 @@
 ✔ |[598.范围求和II](https://leetcode-cn.com/problems/range-addition-ii/) | [👍数组模拟](Solutions/598.范围求和II.md) | 👉脑筋急转弯
 ✔ |[419.甲板上的战舰](https://leetcode-cn.com/problems/battleships-in-a-board/) | [👉脑筋急转弯](Solutions/419.甲板上的战舰.md) | 👉脑筋急转弯
 
+> **特定顺序遍历二维数组**
 
 特定顺序遍历二维数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -58,9 +70,15 @@
 ✔ |[59.螺旋矩阵II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [👍](Solutions/59.螺旋矩阵II.md) |  ⬆模拟
 ✔ |[498.对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/) | [👍](Solutions/498.对角线遍历.md) |  ⬆模拟
 
+> **二维数组变换**
+
 二维数组变换 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
-❌ |	566、48、73、289 | 👍 | 👉
+✔ |[566.重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/) | [👍二维矩阵遍历](Solutions/566.重塑矩阵.md) |  模拟
+✔ |[48.旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [👍辅助数组/原地](Solutions/48.旋转图像.md) |  原地转换有些脑筋急转弯
+✔ |[73.矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [👍辅助数组/原地记忆化](Solutions/73.矩阵置零.md) |  利用矩阵边缘记忆化
+✔ |[289.生命游戏](https://leetcode-cn.com/problems/game-of-life/) | [👍辅助数组/原地记忆化](Solutions/289.生命游戏.md) |  利用元素正负记忆化
+
 
 前缀和数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
@@ -80,16 +98,18 @@
 
 ## 双指针
 
+> **双指针**
+
 双指针 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
 ✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
 ✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]() 
-✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | [👉]() 
+✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | 👉
+✔ |[978.最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [👍](Solutions/978.最长湍流子数组.md) | 👉
 ❌ |3,209,76,438,567 | 👍 | 👉
 
-
-### 二分法
+> **二分法**
 
 二分法 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -100,7 +120,8 @@
 
 
 
-### 滑动窗口
+> **滑动窗口**
+
 滑动窗口 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
