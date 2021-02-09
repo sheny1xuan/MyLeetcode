@@ -79,13 +79,21 @@
 ✔ |[73.矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [👍辅助数组/原地记忆化](Solutions/73.矩阵置零.md) |  利用矩阵边缘记忆化
 ✔ |[289.生命游戏](https://leetcode-cn.com/problems/game-of-life/) | [👍辅助数组/原地记忆化](Solutions/289.生命游戏.md) |  利用元素正负记忆化
 
+> **前缀和数组**
 
 前缀和数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
-❌ |	303、304、238 | 👍 | 👉
+✔ |[1109.航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [👍前缀和](Solutions/1109.航班预订统计.md) |  前缀和反问题
+❌ |	303、304、238,1109,1186,1310,1371 | 👍 | 👉
 
+> [**AtMostK问题**](Analysis/AtMostK问题.md)
 
-
+AtMostK问题 |题目 | 我的题解 | 相关题目
+ :-: | - | :-: | :-:
+✔ |[795.区间子数组个数](https://leetcode-cn.com/problems/number-of-subarrays-with-bounded-maximum/) | [👍母题3](Solutions/795.区间子数组个数.md) |  AtMostK问题典型
+✔ |[467.环绕字符串](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string/) | [👍母题1+哈希表去重](Solutions/467.环绕字符串中唯一的子字符串.md) |  去重
+✔ |[904.水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [👍AtMostK变种:K为区间内元素种类](Solutions/904.水果成篮.md) |  滑动窗口+哈希表记录种类
+✔ |[992.K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [👍AtMostK变种+母题3](Solutions/992.K个不同整数的子数组.md) |  滑动窗口+哈希表记录种类
 ## 哈希表与排列
 哈希表 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
