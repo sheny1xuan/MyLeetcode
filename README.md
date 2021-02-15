@@ -20,8 +20,7 @@
 数组 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[169.多数元素](https://leetcode-cn.com/problems/majority-element/) | [👍](Solutions/169.多数元素.md) | 👉
-✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍](Solutions/215.数组中的第K个最大元素.md) | 👉
-✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍](Solutions/238.除自身以外数组的乘积.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+
 
 > **数组的遍历**
 
@@ -79,12 +78,23 @@
 ✔ |[73.矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | [👍辅助数组/原地记忆化](Solutions/73.矩阵置零.md) |  利用矩阵边缘记忆化
 ✔ |[289.生命游戏](https://leetcode-cn.com/problems/game-of-life/) | [👍辅助数组/原地记忆化](Solutions/289.生命游戏.md) |  利用元素正负记忆化
 
-> **前缀和数组**
+> **前缀和数组与求和问题**
+
+数组求和 |题目 | 我的题解 | 相关题目
+ :-: | - | :-: | :-:
+✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍连续子序和](Solutions/53.最大子序和.md) | [👉经典](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
+
 
 前缀和数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
+✔ |[303.区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [👍前缀和设计问题](Solutions/303.区域和检索-数组不可变.md) |  经典前缀和
+✔ |[304.二维区域和检索-矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/) | [👍二维前缀和设计问题](Solutions/303.区域和检索-数组不可变.md) |  ⬆前缀和
+✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍前缀和](Solutions/238.除自身以外数组的乘积.md) | 👉[1423,](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)[1310](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
+✔ |[1310.子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/) | [👍前缀和](Solutions/1310.子数组异或查询.md) | ⬆
+✔ |[1186.删除一次得到子数组最大和](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/) | [👍连续子数组和+前缀和](Solutions/1186.删除一次得到子数组最大和.md) | 👉[53](https://leetcode-cn.com/problems/maximum-subarray/)
 ✔ |[1109.航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [👍前缀和](Solutions/1109.航班预订统计.md) |  前缀和反问题
-❌ |	303、304、238,1109,1186,1310,1371 | 👍 | 👉
+✔ |[1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/xiang-xi-jie-shi-by-will_never_die/) | [👍模式前缀计算](Solutions/1371.每个元音包含偶数次的最长子字符串.md) |  模式计算
+
 
 > [**AtMostK问题**](Analysis/AtMostK问题.md)
 
@@ -94,6 +104,13 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
 ✔ |[467.环绕字符串](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string/) | [👍母题1+哈希表去重](Solutions/467.环绕字符串中唯一的子字符串.md) |  去重
 ✔ |[904.水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [👍AtMostK变种:K为区间内元素种类](Solutions/904.水果成篮.md) |  滑动窗口+哈希表记录种类
 ✔ |[992.K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [👍AtMostK变种+母题3](Solutions/992.K个不同整数的子数组.md) |  滑动窗口+哈希表记录种类
+
+[**TOPK问题(第k大元素)**](Analysis/TOPk元素(第k大的元素).md)
+TOPK问题 |题目 | 我的题解 | 相关题目
+ :-: | - | :-: | :-:
+✔ |[703.数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [👍小顶堆](Solutions/703.数据流中的第K大元素.md) |  数据流+O(nlogk)
+✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍快速选择](Solutions/215.数组中的第K个最大元素.md) | 分治O(n)
+
 ## 哈希表与排列
 哈希表 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -136,6 +153,7 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
 ✔ | [1423.可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [👍子序列和/滑动窗口(最优)](Solutions/1423.可获得的最大点数.md) | ⬆预先求和
 ✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 ✔ | [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [👍](Solutions/1208.尽可能使字符串相等.md) | ⬆
+✔ | [567.字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [👍滑动窗口+哈希表](Solutions/567.字符串的排列.md) | ⬆字符串频率匹配
 ❌ |1004,1493 | 👍 | 👉
 
 ## 树
@@ -214,7 +232,7 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ | [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [👍](Solutions/70.爬楼梯.md) | [👉]()
 ✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍](Solutions/5.最长回文子串.md) | [👉](Solutions/5.最长回文子串.md)
-✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍](Solutions/53.最大子序和.md) | [👉](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
+
 
 ### 股票类问题
 做题情况 |题目 | 我的题解 | 参考资料
