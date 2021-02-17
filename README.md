@@ -156,6 +156,42 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [567.字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [👍滑动窗口+哈希表](Solutions/567.字符串的排列.md) | ⬆字符串频率匹配
 ❌ |1004,1493 | 👍 | 👉
 
+## 链表
+
+> 链表基本操作->删除，添加，反转等
+
+链表基本操作 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | 👉[203](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+✔ |[203.移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)| [删除节点👍](Solutions/203.移除链表元素.md) | 👉使用哑节点方便迭代
+✔ |[19.删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)| [快慢指针最优解👍](Solutions/19.删除链表的倒数第N个结点.md) | 👉快慢指针
+✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | 👉
+✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
+✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | 👉
+
+链表合并 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
+✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
+✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
+✔ |[430.扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) | [👍链表+二叉树](Solutions/430.扁平化多级双向链表.md) | [👉]
+
+链表排序 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
+✔ | [148.排序链表](https://leetcode-cn.com/problems/sort-list/) | [👍](Solutions/148.排序链表.md) | 👉并归排序
+
+快慢指针 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
+
+
+
+双向链表 |题目 | 我的题解 | 参考资料或相关题目
+ :-: | - | :-: | :-:
+✔ | [146.LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [👍](Solutions/146.LRU缓存机制.md) | 无
+
+
 ## 树
 ### 求树的属性
 做题情况 |题目 | 我的题解 | 参考资料
@@ -191,39 +227,6 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[415.字符串相加](https://leetcode-cn.com/problems/add-strings/) | [👍](415.字符串相加.md) | [👉](https://leetcode-cn.com/problems/multiply-strings/solution/python-zi-fu-chuan-bao-li-mo-ni-shu-shi-cheng-fa-j/)
 ✔ |[43.字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [👍](Solutions/43.字符串相乘.md) | 👉
 ✔  |[557.反转字符串中的单词III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | [👍](Solutions/557.反转字符串中的单词III.md) | 👉[344](344.反转字符串.md)
-
-
-
-
-## 链表
-
-链表基本操作 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | 👉
-✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
-✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | 👉
-✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | 👉
-
-链表合并 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
-✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
-✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
-
-链表排序 |题目 | 我的题解 | 参考资料或相关题目
- :-: | - | :-: | :-:
-✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
-✔ | [148.排序链表](https://leetcode-cn.com/problems/sort-list/) | [👍](Solutions/148.排序链表.md) | 👉并归排序
-
-快慢指针 |题目 | 我的题解 | 参考资料或相关题目
- :-: | - | :-: | :-:
-✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
-
-
-
-双向链表 |题目 | 我的题解 | 参考资料或相关题目
- :-: | - | :-: | :-:
-✔ | [146.LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [👍](Solutions/146.LRU缓存机制.md) | 无
 
 
 ## 动态规划
