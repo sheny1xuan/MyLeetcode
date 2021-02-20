@@ -92,7 +92,8 @@
 ✔ |[238. 除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [👍前缀和](Solutions/238.除自身以外数组的乘积.md) | 👉[1423,](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)[1310](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 ✔ |[1310.子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/) | [👍前缀和](Solutions/1310.子数组异或查询.md) | ⬆
 ✔ |[1186.删除一次得到子数组最大和](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/) | [👍连续子数组和+前缀和](Solutions/1186.删除一次得到子数组最大和.md) | 👉[53](https://leetcode-cn.com/problems/maximum-subarray/)
-✔ |[1109.航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [👍前缀和](Solutions/1109.航班预订统计.md) |  前缀和反问题
+✔ |[1109.航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [👍差分](Solutions/1109.航班预订统计.md) |  前缀和反问题->[995](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+✔ |[995.K连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | [👍差分](Solutions/995.K连续位的最小翻转次数.md) |  ⬆
 ✔ |[1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/xiang-xi-jie-shi-by-will_never_die/) | [👍模式前缀计算](Solutions/1371.每个元音包含偶数次的最长子字符串.md) |  模式计算
 
 
@@ -102,6 +103,7 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[795.区间子数组个数](https://leetcode-cn.com/problems/number-of-subarrays-with-bounded-maximum/) | [👍母题3](Solutions/795.区间子数组个数.md) |  AtMostK问题典型
 ✔ |[467.环绕字符串](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string/) | [👍母题1+哈希表去重](Solutions/467.环绕字符串中唯一的子字符串.md) |  去重
+✔ |[1004.最大连续1的个数III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [👍ATmostK变种，连续子序列中1的个数](Solutions/1004.最大连续1的个数III.md) |  经典AtMostK问题
 ✔ |[904.水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [👍AtMostK变种:K为区间内元素种类](Solutions/904.水果成篮.md) |  滑动窗口+哈希表记录种类
 ✔ |[992.K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [👍AtMostK变种+母题3](Solutions/992.K个不同整数的子数组.md) |  滑动窗口+哈希表记录种类
 
@@ -165,9 +167,11 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[237.删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)| [👍](Solutions/237.删除链表中的节点.md) | 👉[203](https://leetcode-cn.com/problems/remove-linked-list-elements/)
 ✔ |[203.移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)| [删除节点👍](Solutions/203.移除链表元素.md) | 👉使用哑节点方便迭代
 ✔ |[19.删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)| [快慢指针最优解👍](Solutions/19.删除链表的倒数第N个结点.md) | 👉快慢指针
-✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍](Solutions/61.旋转链表.md) | 👉
-✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
-✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍](Solutions/206.反转链表.md) | 👉
+✔ |[61.旋转链表](https://leetcode-cn.com/problems/rotate-list/)| [👍模拟旋转](Solutions/61.旋转链表.md) | 👉
+✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍迭代/递归/头插法](Solutions/206.反转链表.md) | 👉链表反转
+✔ |[92.反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [👍部分链表反转](Solutions/92.反转链表II.md) | 👉[25](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)(头插法\局部反转函数)
+✔ |[25.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)| [👍部分链表反转](Solutions/25.K个一组翻转链表.md) | 👉头插法\局部反转函数
+
 
 链表合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -184,6 +188,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 快慢指针 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
+✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
 
 
 
