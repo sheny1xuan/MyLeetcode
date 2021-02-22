@@ -106,6 +106,7 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
 ✔ |[1004.最大连续1的个数III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | [👍ATmostK变种，连续子序列中1的个数](Solutions/1004.最大连续1的个数III.md) |  经典AtMostK问题
 ✔ |[904.水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [👍AtMostK变种:K为区间内元素种类](Solutions/904.水果成篮.md) |  滑动窗口+哈希表记录种类
 ✔ |[992.K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [👍AtMostK变种+母题3](Solutions/992.K个不同整数的子数组.md) |  滑动窗口+哈希表记录种类
+✔ |[1438.绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [👍AtMostK变种+最大最小值](Solutions/1438.绝对差不超过限制的最长连续子数组.md) |  利用双端队列记录最大最小值
 
 [**TOPK问题(第k大元素)**](Analysis/TOPk元素(第k大的元素).md)
 TOPK问题 |题目 | 我的题解 | 相关题目
@@ -173,9 +174,10 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[25.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)| [👍部分链表反转](Solutions/25.K个一组翻转链表.md) | 👉头插法\局部反转函数
 
 
-链表合并 |题目 | 我的题解 | 参考资料
+链表加法与合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | [👉](Solutions/2.两数相加.md)
+✔ | [445.两数相加II](https://leetcode-cn.com/problems/add-two-numbers-ii/) | [👍栈+链表](Solutions/445.两数相加II) | 👉[2](https://leetcode-cn.com/problems/add-two-numbers/)
+✔ | [2.两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [👍](Solutions/2.两数相加.md) | ⬆
 ✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
 ✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
 ✔ |[430.扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) | [👍链表+二叉树](Solutions/430.扁平化多级双向链表.md) | [👉]
