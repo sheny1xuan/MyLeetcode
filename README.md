@@ -29,6 +29,7 @@
 ✔ |[485.最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) | [👍](Solutions/485.最大连续1的个数.md) | 👉
 ✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
 ✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
+✔ |[832.翻转图像](https://leetcode-cn.com/problems/flipping-an-image/) | [👍](Solutions/832.翻转图像.md) | 👉
 
 > **统计数组的元素**
 
@@ -157,6 +158,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 ✔ | [1208.尽可能使字符串相等](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/) | [👍](Solutions/1208.尽可能使字符串相等.md) | ⬆
 ✔ | [567.字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [👍滑动窗口+哈希表](Solutions/567.字符串的排列.md) | ⬆字符串频率匹配
+✔ | [1052.爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [👍固定大小的滑动窗口](Solutions/1052.爱生气的书店老板.md) | ⬆类似最大子序和(53)
 ❌ |1004,1493 | 👍 | 👉
 
 ## 链表
@@ -172,7 +174,9 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[206.反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)| [👍迭代/递归/头插法](Solutions/206.反转链表.md) | 👉链表反转
 ✔ |[92.反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [👍部分链表反转](Solutions/92.反转链表II.md) | 👉[25](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)(头插法\局部反转函数)
 ✔ |[25.K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)| [👍部分链表反转](Solutions/25.K个一组翻转链表.md) | 👉头插法\局部反转函数
+✔ |[24.两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)| [👍部分链表反转](Solutions/24.两两交换链表中的节点.md) | 👉模拟局部反转
 
+> 链表加法与合并
 
 链表加法与合并 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -181,23 +185,25 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[21.合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [👍](Solutions/21.合并两个有序链表.md) | [👉](Solutions/21.合并两个有序链表.md) 
 ✔ |[23.合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [👍](Solutions/23.合并K个升序链表.md) | [👉](Solutions/23.合并K个升序链表.md) 
 ✔ |[430.扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/) | [👍链表+二叉树](Solutions/430.扁平化多级双向链表.md) | [👉]
+> 链表排序
 
 链表排序 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
-✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉
+✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉链表插排
 ✔ | [148.排序链表](https://leetcode-cn.com/problems/sort-list/) | [👍](Solutions/148.排序链表.md) | 👉并归排序
+> 快慢指针
 
 快慢指针 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
 ✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
 
+> 链表设计
 
-
-双向链表 |题目 | 我的题解 | 参考资料或相关题目
+链表设计 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [146.LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [👍](Solutions/146.LRU缓存机制.md) | 无
-
+✔ | [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/) | [👍链表添加或删除](Solutions/707.设计链表.md) | 无
 
 ## 树
 ### 求树的属性
