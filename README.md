@@ -160,7 +160,23 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [567.字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [👍滑动窗口+哈希表](Solutions/567.字符串的排列.md) | ⬆字符串频率匹配
 ✔ | [1052.爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [👍固定大小的滑动窗口](Solutions/1052.爱生气的书店老板.md) | ⬆类似最大子序和(53)
 ❌ |1004,1493 | 👍 | 👉
+## 栈
+<!-- 
+❌
+✔ -->
+> 辅助栈
 
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[682.棒球比赛](https://leetcode-cn.com/problems/baseball-game/)| [👍辅助栈](Solutions/682.棒球比赛.md) | 👉
+✔ |[71.简化路径](https://leetcode-cn.com/problems/simplify-path/)| [👍辅助栈](Solutions/71.简化路径.md) | 👉
+✔ |[388.文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/)| [👍辅助栈](Solutions/388.文件的最长绝对路径.md) | 👉路径问题，一般都要先划分字符串
+
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[7.整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [👍](Solutions/7.整数反转.md) | [👉](Solutions/7.整数反转.md)
+✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
+✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
 ## 链表
 
 > 链表基本操作->删除，添加，反转等
@@ -220,16 +236,6 @@ TOPK问题 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[230.二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [👍](Solutions/230.二叉搜索树中第K小的元素.md) | 👉 
 
-## 栈
-<!-- 
-❌
-✔ -->
-
-做题情况 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[7.整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [👍](Solutions/7.整数反转.md) | [👉](Solutions/7.整数反转.md)
-✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
-✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
 
 ## 字符串
 
