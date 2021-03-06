@@ -5,9 +5,16 @@
 
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | [👉]
+✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | 👉
 
 > **位运算**
+
+> 位的遍历
+
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[338.比特位计数](https://leetcode-cn.com/problems/counting-bits/)| [👍1的遍历](Solutions/338.比特位计数.md) | 👉
+
 
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -30,6 +37,7 @@
 ✔ |[495.提莫攻击](https://leetcode-cn.com/problems/teemo-attacking/comments/) | [👍](Solutions/495.提莫攻击.md) | 👉
 ✔ |[414.第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | [👍](Solutions/414.第三大的数.md) | 👉
 ✔ |[832.翻转图像](https://leetcode-cn.com/problems/flipping-an-image/) | [👍](Solutions/832.翻转图像.md) | 👉
+✔ |[896.单调数列](https://leetcode-cn.com/problems/monotonic-array/) | [👍一次遍历](Solutions/896.单调数列.md) | 👉
 
 > **统计数组的元素**
 
@@ -116,9 +124,15 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍快速选择](Solutions/215.数组中的第K个最大元素.md) | 分治O(n)
 
 ## 哈希表与排列
-哈希表 |题目 | 我的题解 | 参考资料
+
+> 哈希表的查找、插入及删除
+
+哈希表基本操作 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉[349,](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+✔ |[128.最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [👍哈希表去重](Solutions/217.存在重复元素.md) | 👉关键是怎么找起点
+✔ |[290.单词规律](https://leetcode-cn.com/problems/word-pattern/) | [👍双射](Solutions/290.单词规律.md) | 双哈希表/单哈希表
+✔ |[500.键盘行](https://leetcode-cn.com/problems/keyboard-row/) | [注意大小写](Solutions/500.键盘行.md) | 子集问题
 ✔ |[1128.等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/submissions/) | [👍](Solutions/1128.等价多米诺骨牌对的数量.md) | 👉
 
 <!-- 排序 |题目 | 我的题解 | 参考资料
@@ -133,7 +147,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
 ✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]() 
+✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]
 ✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | 👉
 ✔ |[978.最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [👍](Solutions/978.最长湍流子数组.md) | 👉
 ❌ |3,209,76,438,567 | 👍 | 👉
@@ -164,7 +178,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 <!-- 
 ❌
 ✔ -->
-> 辅助栈
+> **辅助栈**
 
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -172,11 +186,35 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[71.简化路径](https://leetcode-cn.com/problems/simplify-path/)| [👍辅助栈](Solutions/71.简化路径.md) | 👉
 ✔ |[388.文件的最长绝对路径](https://leetcode-cn.com/problems/longest-absolute-file-path/)| [👍辅助栈](Solutions/388.文件的最长绝对路径.md) | 👉路径问题，一般都要先划分字符串
 
+> **栈与计算器**
+
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
+✔ |[150.逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)| [👍后缀表达式计算](Solutions/150.逆波兰表达式求值.md) | 👉
+✔ |[224.基本计算器](https://leetcode-cn.com/problems/basic-calculator/)| [👍存储数字前符号进行相关计算]](Solutions/224.基本计算器.md) | 👉
+✔ |[227.基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)| [👍存储数字前符号进行相关计算](Solutions/227.基本计算器II.md) | 👉
+
+> **栈与括号**
+
+栈与括号 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号.md) | 👉
+✔ |[636.函数的独占时间](https://leetcode-cn.com/problems/exclusive-time-of-functions/)| [👍](Solutions/636.函数的独占时间.md) | 👉
+✔ |[32.最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)| [👍](Solutions/32.最长有效括号.md) | 👉
+
+辅助栈 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
 ✔ |[7.整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [👍](Solutions/7.整数反转.md) | [👉](Solutions/7.整数反转.md)
-✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号) | [👉](Solutions/20.有效的括号) 
+✔ |[20.有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [👍](Solutions/20.有效的括号.md) | 👉
 ✔ |[155.最小栈](https://leetcode-cn.com/problems/min-stack/)| [👍](Solutions/155.最小栈.md) | 👉
+
+> **单调栈**
+
+单调栈 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [下一个更大元素问题👍](Solutions/739.每日温度.md) | [👉视频理解](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/)
+✔ |[496.下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/) | [👍下一个更大元素问题+哈希表](Solutions/496.下一个更大元素I.md) | 👉
+✔ |[503.下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [👍下一个更大元素问题+循环数组](Solutions/503.下一个更大元素II.md) | 👉
 ## 链表
 
 > 链表基本操作->删除，添加，反转等
