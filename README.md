@@ -7,6 +7,12 @@
  :-: | - | :-: | :-:
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | 👉
 
+> **除法**
+
+除法 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[166.分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | [👍](Solutions/166.分数到小数.md) | 👉
+
 > **位运算**
 
 > 位的遍历
@@ -116,8 +122,10 @@ AtMostK问题 |题目 | 我的题解 | 相关题目
 ✔ |[904.水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | [👍AtMostK变种:K为区间内元素种类](Solutions/904.水果成篮.md) |  滑动窗口+哈希表记录种类
 ✔ |[992.K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/) | [👍AtMostK变种+母题3](Solutions/992.K个不同整数的子数组.md) |  滑动窗口+哈希表记录种类
 ✔ |[1438.绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [👍AtMostK变种+最大最小值](Solutions/1438.绝对差不超过限制的最长连续子数组.md) |  利用双端队列记录最大最小值
+✔ |[3.无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)| [👍AtMostK变种+哈希表](Solutions/3.无重复字符的最长子串.md) |  哈希表或者集合记录窗口中的元素
 
-[**TOPK问题(第k大元素)**](Analysis/TOPk元素(第k大的元素).md)
+> [**TOPK问题(第k大元素)**](Analysis/TOPk元素(第k大的元素).md)
+
 TOPK问题 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[703.数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | [👍小顶堆](Solutions/703.数据流中的第K大元素.md) |  数据流+O(nlogk)
@@ -129,11 +137,33 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 
 哈希表基本操作 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉[349,](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+✔ |[217.存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [👍](Solutions/217.存在重复元素.md) | 👉[349,](https://leetcode-cn.com/problems/intersection-of-two-arrays/)[219](https://leetcode-cn.com/problems/contains-duplicate-ii/)
 ✔ |[128.最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [👍哈希表去重](Solutions/217.存在重复元素.md) | 👉关键是怎么找起点
 ✔ |[290.单词规律](https://leetcode-cn.com/problems/word-pattern/) | [👍双射](Solutions/290.单词规律.md) | 双哈希表/单哈希表
+✔ |[205.同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | [👍双射](Solutions/205.同构字符串.md) | 双哈希表/单哈希表
 ✔ |[500.键盘行](https://leetcode-cn.com/problems/keyboard-row/) | [注意大小写](Solutions/500.键盘行.md) | 子集问题
 ✔ |[1128.等价多米诺骨牌对的数量](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/submissions/) | [👍](Solutions/1128.等价多米诺骨牌对的数量.md) | 👉
+✔ |[532.数组中的k-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | [👍哈希表+条件查找](Solutions/532.数组中的k-diff数对.md) | 👉
+
+> 哈希表与列表索引
+
+哈希表与列表索引 |题目 | 我的题解 | 参考资料
+:-: | - | :-: | :-:
+✔ |[1.两数之和](https://leetcode-cn.com/problems/two-sum/) | [👍注意重复元素的判断](Solutions/1.两数之和.md) | 👉
+✔ |[167.两数之和II-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [👍有序,双指针最优](Solutions/167.两数之和II-输入有序数组.md) | 👉
+✔ |[599.两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | [👍哈希表记录索引](Solutions/599.两个列表的最小索引总和.md) | 👉
+
+> 哈希表与统计
+最好使用collections.Counter()
+
+哈希表与统计 |题目 | 我的题解 | 参考资料
+:-: | - | :-: | :-:
+✔ |[594.最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | [👍统计字符个数](Solutions/594.最长和谐子序列.md) | 👉
+✔ |[220.存在重复元素III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | [👍滑动窗口+哈希表](Solutions/220.存在重复元素III.md) | 👉固定长度滑动窗口与桶模拟
+✔ |[350.两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [👍双指针\哈希表](Solutions/350.两个数组的交集II.md) | 👉注意不同情况下优化方法
+✔ |[554.砖墙](https://leetcode-cn.com/problems/brick-wall/) | [👍哈希表+前缀和](Solutions/554.砖墙.md) | 👉
+
+
 
 <!-- 排序 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -188,10 +218,10 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 
 > **栈与计算器**
 
-做题情况 |题目 | 我的题解 | 参考资料
+栈与计算器 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[150.逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)| [👍后缀表达式计算](Solutions/150.逆波兰表达式求值.md) | 👉
-✔ |[224.基本计算器](https://leetcode-cn.com/problems/basic-calculator/)| [👍存储数字前符号进行相关计算]](Solutions/224.基本计算器.md) | 👉
+✔ |[224.基本计算器](https://leetcode-cn.com/problems/basic-calculator/)| [👍存储数字前符号进行相关计算](Solutions/224.基本计算器.md) | 👉
 ✔ |[227.基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)| [👍存储数字前符号进行相关计算](Solutions/227.基本计算器II.md) | 👉
 
 > **栈与括号**
@@ -260,6 +290,11 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/) | [👍链表添加或删除](Solutions/707.设计链表.md) | 无
 
 ## 树
+### 二叉树的遍历
+二叉树遍历 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[331.验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [👍二叉树+栈](Solutions/331.验证二叉树的前序序列化.md) | [👉递归建树也可以做]
+
 ### 求树的属性
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
@@ -291,7 +326,9 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [👍](Solutions/70.爬楼梯.md) | [👉]()
-✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍](Solutions/5.最长回文子串.md) | [👉](Solutions/5.最长回文子串.md)
+✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍二维动态规划数组](Solutions/5.最长回文子串.md) | 👉两种枚举方式:长度和倒序
+✔ | [131.分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | [👍回文子串问题+回溯](Solutions/131.分割回文串.md) | 👉回文子串问题+回溯
+✔ | [132.分割回文串II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [👍回文子串问题+最长连续子序列](Solutions/132.分割回文串II.md) | 👉回文子串问题+最长连续子序列
 
 
 ### 股票类问题
