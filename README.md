@@ -99,7 +99,6 @@
  :-: | - | :-: | :-:
 ✔ | [53.最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [👍连续子序和](Solutions/53.最大子序和.md) | [👉经典](https://leetcode-cn.com/problems/maximum-subarray/solution/zui-da-zi-xu-he-cshi-xian-si-chong-jie-fa-bao-li-f/)
 
-
 前缀和数组 |题目 | 我的题解 | 相关题目
  :-: | - | :-: | :-:
 ✔ |[303.区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/) | [👍前缀和设计问题](Solutions/303.区域和检索-数组不可变.md) |  经典前缀和
@@ -110,6 +109,7 @@
 ✔ |[1109.航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/) | [👍差分](Solutions/1109.航班预订统计.md) |  前缀和反问题->[995](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 ✔ |[995.K连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/) | [👍差分](Solutions/995.K连续位的最小翻转次数.md) |  ⬆
 ✔ |[1371.每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/xiang-xi-jie-shi-by-will_never_die/) | [👍模式前缀计算](Solutions/1371.每个元音包含偶数次的最长子字符串.md) |  模式计算
+
 
 
 > [**AtMostK问题**](Analysis/AtMostK问题.md)
@@ -132,7 +132,12 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[215.数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [👍快速选择](Solutions/215.数组中的第K个最大元素.md) | 分治O(n)
 
 ## 哈希表与排列
+> [哈希表与哈希冲突]()
 
+哈希表基本操作 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[705.设计哈希集合](https://leetcode-cn.com/problems/design-hashset/) | [👍拉链法](Solutions/705.设计哈希集合.md) | 拉链法/开放地址探查法/再次哈希法
+✔ |[706.设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)| [👍拉链法](Solutions/706.设计哈希映射.md) | 拉链法/开放地址探查法/再次哈希法
 > 哈希表的查找、插入及删除
 
 哈希表基本操作 |题目 | 我的题解 | 参考资料
@@ -162,7 +167,13 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[220.存在重复元素III](https://leetcode-cn.com/problems/contains-duplicate-iii/) | [👍滑动窗口+哈希表](Solutions/220.存在重复元素III.md) | 👉固定长度滑动窗口与桶模拟
 ✔ |[350.两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [👍双指针\哈希表](Solutions/350.两个数组的交集II.md) | 👉注意不同情况下优化方法
 ✔ |[554.砖墙](https://leetcode-cn.com/problems/brick-wall/) | [👍哈希表+前缀和](Solutions/554.砖墙.md) | 👉
+✔ |[454.四数相加II](https://leetcode-cn.com/problems/4sum-ii/) | [👍分组统计和出现的次数](Solutions/454.四数相加II.md) | 👉
+> 哈希表与前缀和
 
+哈希表与前缀和 |题目 | 我的题解 | 参考资料
+:-: | - | :-: | :-:
+✔ | [560.和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [👍连续子序和为k](Solutions/560.和为K的子数组.md) | 👉哈希表+前缀和
+✔ | [523.连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/) | [👍连续子序和为k的倍数](Solutions/523.连续的子数组和.md) | 👉哈希表+前缀和
 
 
 <!-- 排序 |题目 | 我的题解 | 参考资料
@@ -180,6 +191,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]
 ✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | 👉
 ✔ |[978.最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [👍](Solutions/978.最长湍流子数组.md) | 👉
+✔ |[18.四数之和](https://leetcode-cn.com/problems/4sum/) | [👍排序+双指针](Solutions/18.四数之和.md) | 👉
 ❌ |3,209,76,438,567 | 👍 | 👉
 
 > **二分法**
