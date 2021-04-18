@@ -6,6 +6,8 @@
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ |[89.格雷编码](https://leetcode-cn.com/problems/gray-code/submissions/) | [👍](Solutions/89.格雷编码.md) | 👉
+✔ |[6.Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [👍](Solutions/6.Z字形变换.md) | 👉
+
 
 > **除法**
 
@@ -156,6 +158,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 :-: | - | :-: | :-:
 ✔ |[1.两数之和](https://leetcode-cn.com/problems/two-sum/) | [👍注意重复元素的判断](Solutions/1.两数之和.md) | 👉
 ✔ |[167.两数之和II-输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [👍有序,双指针最优](Solutions/167.两数之和II-输入有序数组.md) | 👉
+✔ |[653.两数之和IV-输入BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [👍中序遍历+哈希表](Solutions/653.两数之和IV-输入BST.md) | 👉
 ✔ |[599.两个列表的最小索引总和](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | [👍哈希表记录索引](Solutions/599.两个列表的最小索引总和.md) | 👉
 
 > 哈希表与统计
@@ -174,6 +177,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 :-: | - | :-: | :-:
 ✔ | [560.和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | [👍连续子序和为k](Solutions/560.和为K的子数组.md) | 👉哈希表+前缀和
 ✔ | [523.连续的子数组和](https://leetcode-cn.com/problems/continuous-subarray-sum/) | [👍连续子序和为k的倍数](Solutions/523.连续的子数组和.md) | 👉哈希表+前缀和
+✔ |[525.连续数组](https://leetcode-cn.com/problems/contiguous-array/) | [👍1:+1, 0:-1](Solutions/525.连续数组.md) | 👉哈希表,前缀和,摩尔投票
 
 
 <!-- 排序 |题目 | 我的题解 | 参考资料
@@ -183,32 +187,51 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ## 双指针
 
 > **双指针**
+> **头尾指针问题**
+
+头尾指针问题 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | 👉回文问题
+✔ | [680.验证回文字符串Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | [👍](Solutions/680.验证回文字符串Ⅱ.md) | 👉回文问题
+✔ | [11.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍简单头尾指针](Solutions/11.盛最多水的容器.md) | 👉
+✔ | [15.三数之和](https://leetcode-cn.com/problems/3sum/) | [👍排序+双指针](Solutions/15.三数之和.md) | **经典**👉排序去重
+✔ | [16.最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [👍](Solutions/16.最接近的三数之和.md) | 👉
+✔ | [18.四数之和](https://leetcode-cn.com/problems/4sum/) | [👍排序+双指针](Solutions/18.四数之和.md) | 👉
+✔ | [42.接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [👍头尾双指针最优](Solutions/42.接雨水.md) | 👉动态规划
+
+> **同向指针问题**
 
 双指针 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ | [9.回文数](https://leetcode-cn.com/problems/palindrome-number/) | [👍](Solutions/9.回文数.md) | [👉](Solutions/9.回文数.md)
-✔ |[15.盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [👍](Solutions/15.盛最多水的容器.md) | [👉](Solutions/15.盛最多水的容器.md) 
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | [👉]
+✔ |[27.移除元素](https://leetcode-cn.com/problems/remove-element/) | [👍同向双指针](Solutions/27.移除元素.md) | 👉一个指针记录有效区间
+✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [👍](Solutions/26.删除排序数组中的重复项.md) | 👉
+✔ |[80.删除排序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+ | [👍](Solutions/80.删除排序数组中的重复项II.md) | 👉
+✔ |[83.删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [👍](Solutions/83.删除排序链表中的重复元素.md) | 👉
 ✔ |[88.合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [👍](Solutions/88.合并两个有序数组.md) | 👉
 ✔ |[978.最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [👍](Solutions/978.最长湍流子数组.md) | 👉
-✔ |[18.四数之和](https://leetcode-cn.com/problems/4sum/) | [👍排序+双指针](Solutions/18.四数之和.md) | 👉
 ❌ |3,209,76,438,567 | 👍 | 👉
 
-> **二分法**
 
-二分法 |题目 | 我的题解 | 参考资料
+> **[二分查找](Analysis/Binary_Search.md)**
+
+二分查找 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ | [11.三数之和](https://leetcode-cn.com/problems/3sum/) | [👍](Solutions/11.三数之和.md) | **经典**👉
-✔ |[16.最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [👍](Solutions/16.最接近的三数之和.md) | 👉
-✔ |[26.删除排序数组中的重复项](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [👍](Solutions/33.搜索旋转排序数组.md) | [👉](Solutions/33.搜索旋转排序数组.md) 
+ ✔ | [AcWing69.数组中数值和下标相等的元素](https://www.acwing.com/problem/content/65/) | [👍组合二分](Solutions/AcWing69.数组中数值和下标相等的元素.md) | 👉
+✔ | [153.寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [👍非对称二分](Solutions/153.寻找旋转排序数组中的最小值.md) | 👉
+✔ |  [154.寻找旋转排序数组中的最小值II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [👍非对称二分](Solutions/154.寻找旋转排序数组中的最小值II.md) | 👉
+✔ | [33.搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [👍二分搜索](Solutions/33.搜索旋转排序数组.md) | 👉
+✔ | [81.搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)| [👍二分搜索](Solutions/81.搜索旋转排序数组II.md) | 👉
+✔ | [475.供暖器](https://leetcode-cn.com/problems/heaters/) | [👍二分查找第一个满足某条件的元素](Solutions/475.供暖器.md) | 👉
+✔ | [287.寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | [👍二分变量是数的取值范围](Solutions/287.寻找重复数.md) | 👉
 
-
-
+ 
 
 > **滑动窗口**
 
 滑动窗口 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
+✔ | [209.长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | [普通滑动窗口👍](Solutions/209.长度最小的子数组.md) | 👉
 ✔ | [643.子数组最大平均数I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [👍](Solutions/643.子数组最大平均数I.md) | 👉[1423](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
 ✔ | [1423.可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [👍子序列和/滑动窗口(最优)](Solutions/1423.可获得的最大点数.md) | ⬆预先求和
 ✔ | [424.替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [👍](Solutions/424.替换后的最长重复字符.md) | 👉 [1208](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
@@ -257,6 +280,7 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ |[739.每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [下一个更大元素问题👍](Solutions/739.每日温度.md) | [👉视频理解](https://leetcode-cn.com/problems/daily-temperatures/solution/leetcode-tu-jie-739mei-ri-wen-du-by-misterbooo/)
 ✔ |[496.下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/) | [👍下一个更大元素问题+哈希表](Solutions/496.下一个更大元素I.md) | 👉
 ✔ |[503.下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/) | [👍下一个更大元素问题+循环数组](Solutions/503.下一个更大元素II.md) | 👉
+✔ |[456.132模式](https://leetcode-cn.com/problems/132-pattern/) | [👍单调栈+预求两侧最小值](Solutions/456.132模式.md) | 👉好题
 ## 链表
 
 > 链表基本操作->删除，添加，反转等
@@ -288,12 +312,16 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [147.对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | [👍](Solutions/147.对链表进行插入排序.md) | 👉链表插排
 ✔ | [148.排序链表](https://leetcode-cn.com/problems/sort-list/) | [👍](Solutions/148.排序链表.md) | 👉并归排序
 > 快慢指针
+> 快慢指针一般都是用来检查有没有环的问题
 
-快慢指针 |题目 | 我的题解 | 参考资料或相关题目
+快慢指针/双指针 |题目 | 我的题解 | 参考资料或相关题目
  :-: | - | :-: | :-:
 ✔ | [142.环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/) | [👍](Solutions/142.环形链表II.md) | [141](https://leetcode-cn.com/problems/linked-list-cycle/submissions/)
 ✔ |[160.相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/submissions/)| [👍](Solutions/160.相交链表.md) | 👉
-
+✔ |[86.分隔链表](https://leetcode-cn.com/problems/partition-list/) | [👍双哑节点问题](Solutions/86.分隔链表.md) | 👉
+✔ |[328.奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [👍双哑节点问题](Solutions/328.奇偶链表.md) | 👉
+✔ |[143.重排链表](https://leetcode-cn.com/problems/reorder-list/) | [👍链表综合问题](Solutions/143.重排链表.md) | 👉
+✔ |[457.环形数组是否存在循环](https://leetcode-cn.com/problems/circular-array-loop/)| [👍数组快慢指针](Solutions/457.环形数组是否存在循环.md) | 👉
 > 链表设计
 
 链表设计 |题目 | 我的题解 | 参考资料或相关题目
@@ -301,26 +329,106 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 ✔ | [146.LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/) | [👍](Solutions/146.LRU缓存机制.md) | 无
 ✔ | [707.设计链表](https://leetcode-cn.com/problems/design-linked-list/) | [👍链表添加或删除](Solutions/707.设计链表.md) | 无
 
-## 树
-### 二叉树的遍历
-二叉树遍历 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
-✔ |[331.验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [👍二叉树+栈](Solutions/331.验证二叉树的前序序列化.md) | [👉递归建树也可以做]
+## [树](Analysis/Tree.md)
 
 ### 求树的属性
+DFS递归检查/后序遍历
+> **对称问题/两子树问题**
+
+对称问题 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[100.相同的树](https://leetcode-cn.com/problems/same-tree/) | [👍递归判断节点](Solutions/100.相同的树.md) | 👉
+✔ |[572.另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [👍递归判断子树与相同](Solutions/100.相同的树.md) | 👉
+✔ |[101.对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [👍递归/迭代](Solutions/101.对称二叉树.md) | 👉 经典
+✔ |[655.输出二叉树](https://leetcode-cn.com/problems/print-binary-tree/) | [👍递归t填充](Solutions/655.输出二叉树.md) | 👉 
+
+> [**深度与节点问题**](Analysis/Tree_Depth.md)
+
+深度与节点问题 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [👍先序/后序](Solutions/104.二叉树的最大深度.md) | 👉经典
+✔ |[111.二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [👍先序/后序](Solutions/111.二叉树的最小深度.md) | 👉经典
+✔ |[110.平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | [👍后序](Solutions/110.平衡二叉树.md) | 👉经典
+✔ |[222.完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | [👍节点个数/后序遍历](Solutions/222.完全二叉树的节点个数.md) | 👉完美二叉树
+✔ |[563.二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt/) | [👍节点之和](Solutions/563.二叉树的坡度.md) | 👉
+✔ |[671.二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/submissions/) | [👍DFS+剪枝](Solutions/671.二叉树中第二小的节点.md) | 👉
+✔ |[404.左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | [👍标志位](Solutions/404.左叶子之和.md) | 👉
+✔ |[559.N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [👍](Solutions/559.N叉树的最大深度.md) | 👉
+
+
+> **二叉树的修改与构造**
+
+二叉树的修改与构造 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[617.合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [👍递归建树](Solutions/617.合并二叉树.md) | 👉注意内存问题
+✔ |[654.最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) | [👍递归建树](Solutions/654.最大二叉树.md) | 👉python切片方便
+✔ |[226.翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [👍逐个节点翻转](Solutions/226.翻转二叉树.md) | 👉注意内存问题
+✔ |[623.在二叉树中增加一行](https://leetcode-cn.com/problems/add-one-row-to-tree/) | [BFS/DFS](Solutions/623.在二叉树中增加一行.md) | 👉注意递归返回
+✔ |[450.删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [递归删除节点](Solutions/450.删除二叉搜索树中的节点.md) | 👉删除节点
+✔ |[108.将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [递归建树](Solutions/108.将有序数组转换为二叉搜索树.md) | 👉递归建树
+✔ |[109.有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/) | [快慢指针+递归建树](Solutions/109.有序链表转换二叉搜索树.md) | 👉递归建树
+✔ |[106.从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [递归建树](Solutions/106.从中序与后序遍历序列构造二叉树.md) | 👉经典
+✔ |[105.从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [递归建树](Solutions/105.从前序与中序遍历序列构造二叉树.md) | 👉经典
+
+### 二叉树的遍历
+**层序遍历**
+层序遍历 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[102.二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [👍BFS/DFS](Solutions/102.二叉树的层序遍历.md) | 👉
+✔ |[429.N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [👍BFS/DFS](Solutions/429.N叉树的层序遍历.md) | 👉
+✔ |[107.二叉树的层序遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)| [👍BFS倒序](Solutions/107.二叉树的层序遍历II.md) | 👉
+✔ |[199.二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)| [👍BFS](Solutions/199.二叉树的右视图.md) | 👉
+✔ | [102.二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)| [👍BFS](Solutions/102.二叉树的层序遍历.md) | 👉
+✔ |[103.二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)| [👍双端队列](Solutions/103.二叉树的锯齿形层序遍历.md) | 👉
+✔ |[116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)| [👍BFS/DFS](Solutions/116.填充每个节点的下一个右侧节点指针.md) | 👉
+✔ |[117.填充每个节点的下一个右侧节点指针II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)| [👍类BFS](Solutions/117.填充每个节点的下一个右侧节点指针II.md) | 👉更典型
+✔ | [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)| [👍BFS](Solutions/515.在每个树行中找最大值.md) | 👉
+✔ |[662.二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)| [👍BFS+记录节点位置](Solutions/662.二叉树最大宽度.md) | 👉
+✔ |[331.验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [👍二叉树+栈](Solutions/331.验证二叉树的前序序列化.md) | [👉递归建树也可以做]
+
+**前序遍历与序列化**
+前序遍历与序列化 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[114.二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [👍迭代先序遍历](Solutions/114.二叉树展开为链表.md) | 👉
+✔ |[589.N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [👍迭代](Solutions/589.N叉树的前序遍历.md) | 👉
+✔ |[606.根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)
+| [👍品味前序迭代序列化](Solutions/606.根据二叉树创建字符串.md) | 👉访问完所有儿子节点出栈。
+✔ |[652.寻找重复的子树](https://leetcode-cn.com/problems/find-duplicate-subtrees/)
+| [👍先序序列化](Solutions/652.寻找重复的子树.md) | 👉
+✔ |[297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+| [👍建树与序列化](Solutions/297.二叉树的序列化与反序列化.md) | 👉 经典
+
+**后序遍历与二叉树的性质**
+前序遍历与序列化 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[236.二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [👍后序遍历](Solutions/236.二叉树的最近公共祖先.md) | 👉
+
+### 路径问题
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
-✔ |[104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [👍](Solutions/104.二叉树的最大深度.md) | [👉]
-### 求路径总和
-做题情况 |题目 | 我的题解 | 参考资料
- :-: | - | :-: | :-:
+✔ |[257.二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)| [👍所有路径问题](Solutions/257.二叉树的所有路径.md) | 👉
+✔ |[112.路径总和](https://leetcode-cn.com/problems/path-sum/)| [👍回溯/前缀和](Solutions/112.路径总和.md) | 👉
+✔ |[113.路径总和II](https://leetcode-cn.com/problems/path-sum-ii/)| [👍回溯/前缀和](Solutions/113.路径总和II.md) | 👉
+✔ | [129.求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)| [👍回溯](Solutions/129.求根节点到叶节点数字之和.md) | 👉
 ✔ |[124.二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [👍](Solutions/124.二叉树中的最大路径和.md) | 👉
+✔ |[543.二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [👍二叉树的深度](Solutions/543.二叉树的直径.md) | 👉深度求路径
+✔ |[687.最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)| [子路经问题👍](Solutions/687.最长同值路径.md) | 👉
+
 
 ### 二叉搜索树
 做题情况 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
+✔ |[538.把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [👍](Solutions/538.把二叉搜索树转换为累加树.md) | 👉
 ✔ |[230.二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [👍](Solutions/230.二叉搜索树中第K小的元素.md) | 👉 
+✔ |[173.二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)| [👍](Solutions/173.二叉搜索树迭代器.md) | 👉体会中序遍历迭代
+✔ |[95.不同的二叉搜索树II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)| [👍左右子树不同区间](Solutions/95.不同的二叉搜索树II.md) | 👉左右子树不同区间
+✔ |[96.不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)| [👍](Solutions/96.不同的二叉搜索树.md) | 👉计算个数无需建树
+✔ |[501.二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)| [👍中序遍历](Solutions/501.二叉搜索树中的众数.md) | 👉
 
+### 前缀树
+做题情况 |题目 | 我的题解 | 参考资料
+ :-: | - | :-: | :-:
+✔ |[208.实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [👍](Solutions/208.实现Trie(前缀树).md) | 👉 
 
 ## 字符串
 
@@ -334,13 +442,15 @@ TOPK问题 |题目 | 我的题解 | 相关题目
 
 
 ## 动态规划
+> **字符串动态规划问题**
 
-做题情况 |题目 | 我的题解 | 参考资料
+字符串动态规划问题 |题目 | 我的题解 | 参考资料
  :-: | - | :-: | :-:
 ✔ | [70.爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) | [👍](Solutions/70.爬楼梯.md) | [👉]()
 ✔ | [5.最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [👍二维动态规划数组](Solutions/5.最长回文子串.md) | 👉两种枚举方式:长度和倒序
 ✔ | [131.分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | [👍回文子串问题+回溯](Solutions/131.分割回文串.md) | 👉回文子串问题+回溯
 ✔ | [132.分割回文串II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [👍回文子串问题+最长连续子序列](Solutions/132.分割回文串II.md) | 👉回文子串问题+最长连续子序列
+✔ | [115.不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [👍连续子序列匹配问题](Solutions/115.不同的子序列.md) | 👉👍连续子序列匹配问题
 
 
 ### 股票类问题
